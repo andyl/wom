@@ -48,9 +48,9 @@ defmodule Wom.RootLayout do
   defp navbar(assigns) do
     ~H"""
     <div class="inline text-xs pl-8">
-      <.navlink label="Home" plink={@plink} ref="/" /> |
-      <.navlink label="Cams" plink={@plink} ref="/cams" /> |
-      <.navlink label="Maps" plink={@plink} ref="/maps" />
+      <.navlink label="Home"   plink={@plink} ref="/" />       |
+      <.navlink label="Photos" plink={@plink} ref="/photos" /> |
+      <.navlink label="Maps"   plink={@plink} ref="/maps" />
     </div>
     """
   end

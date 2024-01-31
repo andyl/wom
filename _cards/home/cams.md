@@ -14,10 +14,6 @@ weight: 2
     NMC Maritime Academy
   </a>
 
-- <a target="_blank" href="https://www.iplivecams.com/live-cams/grand-traverse-yacht-club-mooring-field-traverse-city-michigan-united-states/">
-    TC Yacht Club
-  </a>
-
 - <a target="_blank" href="https://www.9and10news.com/weather/cams/sault-ste-marie/#live">
     Sault Ste Marie
   </a>

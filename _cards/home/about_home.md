@@ -6,11 +6,5 @@ weight: 99
 
 ---
 
-Weather, Fire and Road conditions for Meyers CA
-
-<a target="_blank" href="https://en.wikipedia.org/wiki/Meyers,_California">About Meyers</a> 
-
-<a target="_blank" href="https://github.com/andyl/wom">Website Source</a> 
-
-<a target="_blank" href="https://github.com/andyl/wom/issues">Feedback & Requests</a> 
+<a target="_blank" href="https://en.wikipedia.org/wiki/Old_Mission,_Michigan">About Old Mission</a> 
 

@@ -11,7 +11,7 @@ defmodule Wom.PhotosPage do
 
   defp showcards(assigns) do
     ~H"""
-    <div class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+    <div class="p-4 grid lg:grid-cols-4 sm:grid-cols-2 gap-4">
       <%= for card <- @cards do %>
         <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
           <div class="px-4 bg-green-100 border-gray-200 rounded-t-lg">

@@ -6,7 +6,7 @@ weight: 2
 
 ---
  
-- <a target="_blank" href="khttps://www.wmta.org/live-west-michigan-camera-gallery/traverse-city-west-michigan-live-camera/">
+- <a target="_blank" href="https://www.wmta.org/live-west-michigan-camera-gallery/traverse-city-west-michigan-live-camera/">
     Downtown TC
   </a>
 

@@ -1,0 +1,13 @@
+{application,tableau_ext,
+             [{compile_env,[{tableau,['Elixir.Tableau.CardExtension'],
+                                     {ok,[{enabled,true}]}}]},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,tableau]},
+              {description,"tableau_ext"},
+              {modules,['Elixir.Tableau.CardExtension',
+                        'Elixir.Tableau.CardExtension.Cards.Card',
+                        'Elixir.Tableau.CardExtension.Cards.HTMLConverter',
+                        'Elixir.Tableau.CardExtension.Config',
+                        'Elixir.TableauExt']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.

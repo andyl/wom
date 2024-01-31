@@ -1,0 +1,11 @@
+{application,schematic,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,telemetry]},
+              {description,"Data validation and transformation"},
+              {modules,['Elixir.Schematic','Elixir.Schematic.Error',
+                        'Elixir.Schematic.OptionalKey',
+                        'Elixir.Schematic.Unification',
+                        'Elixir.Schematic.Unification.Any',
+                        'Elixir.Schematic.Unification.Schematic']},
+              {registered,[]},
+              {vsn,"0.3.1"}]}.

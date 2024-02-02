@@ -18,8 +18,7 @@ defmodule Wom.RootLayout do
           .cctv-webcam {width: 320px;height: 400px;background-color: #ffffff;}
         </style>
         <%= if Mix.env() == :prod do %>
-          <script defer data-domain="wom" src="https://plausible.io/js/script.js">
-          </script>
+          <script defer data-domain="andyl.github.io/wom" src="https://plausible.io/js/script.js"></script>
         <% end %>
       </head>
 

@@ -6,9 +6,9 @@ weight: 99
 
 ---
 
-<a target="_blank" href="https://en.wikipedia.org/wiki/Old_Mission,_Michigan">About Old Mission</a> 
-
-<a target="_blank" href="https://en.wikipedia.org/wiki/Grand_Traverse_Bay">Grand Traverse Bay</a> 
+<a target="_blank" href="https://en.wikipedia.org/wiki/Old_Mission,_Michigan">Old Mission</a> 
 
 <a target="_blank" href="https://en.wikipedia.org/wiki/Peninsula_Township,_Michigan">Peninsula Township</a> 
+
+<a target="_blank" href="https://en.wikipedia.org/wiki/Grand_Traverse_Bay">Grand Traverse Bay</a> 
 

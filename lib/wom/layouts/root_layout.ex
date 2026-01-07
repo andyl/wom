@@ -67,7 +67,7 @@ defmodule Wom.RootLayout do
   defp navlogo(assigns) do
     ~H"""
     <%= if "/" != @plink do %>
-      <a href="/wom/" class="text-black font-normal hover:text-blue"><.logo /></a>
+      <a href="/wom/" class="font-normal hover:text-blue" style="color: black;"><.logo /></a>
     <% else %>
       <.logo />
     <% end %>

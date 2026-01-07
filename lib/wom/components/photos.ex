@@ -45,7 +45,7 @@ defmodule Wom.Components.Photos do
 
   def img_block(assigns) do
     ~H"""
-    <img class="photo" src={@src} title={@alt} alt={@alt} />
+    <img class="photo" style="border: 2px solid white;" src={@src} title={@alt} alt={@alt} />
     """
   end
 end

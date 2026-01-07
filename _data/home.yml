@@ -1,11 +1,12 @@
 --- 
-- Weather: 
+- Weather / Traffic: 
     - url: https://www.google.com/search?q=weather+49673&oq=weather+49673&aqs=chrome.0.69i59j69i65.3019j0j4&sourceid=chrome&ie=UTF-8
       lbl: Google Weather
     - url: https://weather.com/weather/today/l/cbbb60dbd700ab0df00c86c72f7d8b2238f7bbf0cf0f05056514d221eab99f87
       lbl: Weather.com 
     - url: https://forecast.weather.gov/MapClick.php?lon=-85.48805236816405&lat=44.96170068104786
       lbl: NWS
+    - txt: <a target="_blank" href="https://www.google.com/maps/@44.8356207,-85.4309146,10.88z/data=!5m1!1e1?entry=ttu">Google Traffic Map</a>
 
 - Cams: 
     - url: https://www.wmta.org/live-west-michigan-camera-gallery/traverse-city-west-michigan-live-camera/
@@ -19,9 +20,24 @@
     - url: https://www.hornsbar.com/webcamlarge/
       lbl: Mackinac Island
       
-- Traffic: 
-    - txt: <a target="_blank" href="https://www.google.com/maps/@44.8356207,-85.4309146,10.88z/data=!5m1!1e1?entry=ttu">Google Traffic Map</a>
-  
+- Events: 
+    - url: https://traversecityhorseshows.com/
+      lbl: Horse Shows
+    - url: https://www.interlochen.org/concerts-and-events 
+      lbl: Interlochen 
+    - url: https://www.cherryfestival.org/ 
+      lbl: Cherry Fest
+    - url: https://cedarpolkafest.org/ 
+      lbl: Polka Fest 
+
+- Golf: 
+    - url: https://www.traversecity.com/outdoors/golf/golf-courses/
+      lbl: Course Directory
+    - url: https://www.elmbrookgolf.com/ 
+      lbl: Elmbrook 
+    - url: https://baymeadowsfgc.com/ 
+      lbl: Bay Meadows
+
 - Winter: 
     - url: https://vasa.org 
       lbl: North American Vasa 

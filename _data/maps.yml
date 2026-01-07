@@ -1,0 +1,61 @@
+--- 
+- Lake Michigan Islands:
+    - url: /wom/static/maps/GardenIsland.pdf
+      lbl: Garden Island 
+    - url: /wom/static/maps/StJamesCity.pdf
+      lbl: Beaver Island 
+    - url: /wom/static/maps/NorthFoxIsland.pdf
+      lbl: North Fox Island 
+    - url: /wom/static/maps/SouthFoxIsland.pdf
+      lbl: South Fox Island 
+    - url: /wom/static/maps/NorthManitou.pdf
+      lbl: North Manitou Island 
+    - url: /wom/static/maps/SouthManitou.pdf
+      lbl: South Manitou Island 
+
+- Leelanau: 
+    - url: /wom/static/maps/Leland.pdf 
+      lbl: Leland 
+    - url: /wom/static/maps/Northport.pdf 
+      lbl: Northport 
+    - url: /wom/static/maps/WestBay.pdf 
+      lbl: West Bay 
+    
+- Old Mission:
+    - url: /wom/static/maps/OldMission.pdf 
+      lbl: Old Mission 
+    - url: /wom/static/maps/BowersHarbor.pdf 
+      lbl: Bowers Harbor 
+
+- Sleeping Bear: 
+
+    - url: /wom/static/maps/Manistee.pdf 
+      lbl: Manistee 
+    - url: /wom/static/maps/Frankfort.pdf 
+      lbl: Frankfort 
+    - url: /wom/static/maps/SleepingBear.pdf 
+      lbl: Sleeping Bear Dunes 
+
+- Upper Peninsula: 
+    - url: /wom/static/maps/MackinacIsland.pdf 
+      lbl: Mackinac Island 
+    - url: /wom/static/maps/DetourVillage.pdf 
+      lbl: Detour Village 
+    - url: /wom/static/maps/GrandMarais.pdf 
+      lbl: Grand Marais 
+
+- Northwest Lower Peninsula: 
+
+    - url: /wom/static/maps/ElkRapids.pdf 
+      lbl: Elk Rapids 
+    - url: /wom/static/maps/Charlevoix.pdf 
+      lbl: Charlevoix 
+    - url: /wom/static/maps/WildernessSP.pdf 
+      lbl: Wilderness State Park 
+
+- About the Maps: 
+    - txt: |
+        <p>These maps show Forest Service roads and hiking trails.</p>
+        <p>Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.</p>
+        <p>Load the maps on your phone to navigate with <a href="https://www.avenzamaps.com">Avenza</a>.</p>
+

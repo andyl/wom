@@ -14,7 +14,7 @@ config :tableau, :config,
 config :tableau, :reloader,
   patterns: [
     ~r"lib/.*ex",
-    ~r"_cards/.*md",
+    ~r"_data/.*yml",
     ~r"assets/.*(css|js)"
   ]
 
@@ -34,16 +34,15 @@ config :tailwind,
 
 config :tableau, :assets, tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
 
-config :tableau, Tableau.CardExtension, enabled: true
+config :tableau, Tableau.DataExtension, enabled: true
+config :tableau, Tableau.PageExtension, enabled: true
+config :tableau, Tableau.PostExtension, enabled: true
 config :tableau, Tableau.SitemapExtension, enabled: true
-# config :tableau, Tableau.DataExtension, enabled: true
-# config :tableau, Tableau.PageExtension, enabled: true
-# config :tableau, Tableau.PostExtension, enabled: true, future: true
 
 config :tableau, Tableau.RSSExtension,
   enabled: false,
   title: "WOM",
-  description: "Website Old Mission"
+  description: "West Old Mission"
 
 config :schematic, :config, disable_telemetry: true
 

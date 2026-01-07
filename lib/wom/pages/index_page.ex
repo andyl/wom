@@ -1,35 +1,11 @@
 defmodule Wom.IndexPage do
   use Tableau.Page, layout: Wom.RootLayout, permalink: "/"
   use Phoenix.Component
+  import Wom.Components.Cards
 
   def template(assigns) do
-    assigns = Map.put(assigns, :home_cards, home_cards(assigns))
     ~H"""
-    <.showcards cards={@home_cards} />
+    <.cardpage datalist={@data["home"]} color="blue" />
     """
-  end
-
-  defp showcards(assigns) do
-    ~H"""
-    <div class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
-      <%= for card <- @cards do %>
-        <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
-          <div class="px-4 bg-blue-100 border-gray-200 rounded-t-lg">
-            <%= card.title %>
-          </div>
-
-          <div class="my-2 text-sm text-gray-500">
-            <%= card.body %>
-          </div>
-        </div>
-      <% end %>
-    </div>
-    """
-  end
-
-  defp home_cards(assigns) do
-    assigns.card_data
-    |> Enum.filter(fn card -> String.contains?(card.path, "home") end)
-    |> Enum.sort(fn card1, card2 -> card1.weight < card2.weight end)
   end
 end

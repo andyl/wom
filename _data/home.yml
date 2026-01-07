@@ -1,0 +1,42 @@
+--- 
+- Weather: 
+    - url: https://www.google.com/search?q=weather+49673&oq=weather+49673&aqs=chrome.0.69i59j69i65.3019j0j4&sourceid=chrome&ie=UTF-8
+      lbl: Google Weather
+    - url: https://weather.com/weather/today/l/cbbb60dbd700ab0df00c86c72f7d8b2238f7bbf0cf0f05056514d221eab99f87
+      lbl: Weather.com 
+    - url: https://forecast.weather.gov/MapClick.php?lon=-85.48805236816405&lat=44.96170068104786
+      lbl: NWS
+
+- Cams: 
+    - url: https://www.wmta.org/live-west-michigan-camera-gallery/traverse-city-west-michigan-live-camera/
+      lbl: Downtown TC
+    - url: https://www.nmc.edu/maritime/about/webcam.html
+      lbl: NMC Maritime Academy
+    - url: https://www.9and10news.com/weather/cams/sault-ste-marie/#live
+      lbl: Sault Ste Marie
+    - url: https://www.mackinacbridge.org/fares-traffic/bridge-cam/
+      lbl: Mackinac Bridge
+    - url: https://www.hornsbar.com/webcamlarge/
+      lbl: Mackinac Island
+      
+- Traffic: 
+    - txt: <a target="_blank" href="https://www.google.com/maps/@44.8356207,-85.4309146,10.88z/data=!5m1!1e1?entry=ttu">Google Traffic Map</a>
+  
+- Winter: 
+    - url: https://vasa.org 
+      lbl: North American Vasa 
+    - url: https://michiganicefest.com/ 
+      lbl: Michigan Ice Fest
+    - url: https://www.youtube.com/results?search_query=michigan+ice+fest
+      lbl: Munising Ice Climbing 
+    - url: https://www.mtbohemia.com/
+      lbl: Mt Bohemia 
+
+- About: 
+    - url: https://en.wikipedia.org/wiki/Old_Mission,_Michigan
+      lbl: Old Mission
+    - url: https://en.wikipedia.org/wiki/Peninsula_Township,_Michigan
+      lbl: Peninsula Township 
+    - url: https://en.wikipedia.org/wiki/Grand_Traverse_Bay
+      lbl: Grand Traverse Bay  
+

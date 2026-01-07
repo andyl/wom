@@ -1,0 +1,51 @@
+--- 
+- Entry and Garage: 
+  - src: /wom/static/photos/entry.jpg
+    alt: Home Entry 
+  - src: /wom/static/photos/garage.jpg
+    alt: Garage 
+
+- Master Bedroom:
+  - src: /wom/static/photos/ds_bed.jpg
+    alt: Master Bed 
+  - src: /wom/static/photos/ds_bedroom.jpg
+    alt: Master Bedroom 
+  - src: /wom/static/photos/ds_bath.jpg
+    alt: Master Bath 
+
+- Upstairs Bedrooms: 
+  - src: /wom/static/photos/upstairs_queen.jpg
+    alt: Upstairs Queen 
+  - src: /wom/static/photos/upstairs_twins.jpg
+    alt: Upstairs Twin Beds 
+
+- Kitchen and Guest Bath: 
+  - src: /wom/static/photos/kitchen1.jpg
+    alt: Kitchen 
+  - src: /wom/static/photos/kitchen2.jpg
+    alt: Dining Room Table 
+  - src: /wom/static/photos/guest_bath.jpg
+    alt: Guest Bath 
+
+- Fireplace:
+  - src: /wom/static/photos/fireplace1.jpg
+    alt: Fireplace 
+  - src: /wom/static/photos/fireplace2.jpg
+    alt: Fireplace from Above 
+
+- Deck: 
+  - src: /wom/static/photos/deck1.jpg
+    alt: Facing Southwest
+  - src: /wom/static/photos/deck2.jpg
+    alt: Facing East towards the House
+  - src: /wom/static/photos/deck3.jpg
+    alt: Facing Southwest
+  - src: /wom/static/photos/deck4.jpg
+    alt: Facing West
+
+- Beach:
+  - src: /wom/static/photos/beach.jpg
+    alt: Beach 
+  - src: /wom/static/photos/beach_sunset.jpg
+    alt: Beach at Sunset 
+

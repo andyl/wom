@@ -1,16 +1,5 @@
 import Config
 
-config :tableau, :config,
-  url: "http://localhost:4999",
-  base_path: "wom",
-  markdown: [
-    mdex: [
-      extension: [table: true, header_ids: "", tasklist: true, strikethrough: true],
-      render: [unsafe_: true],
-      features: [syntax_highlight_theme: "kanagawa"]
-    ]
-  ]
-
 config :tableau, :reloader,
   patterns: [
     ~r"lib/.*ex",
@@ -20,17 +9,35 @@ config :tableau, :reloader,
 
 config :web_dev_utils, :reload_log, true
 
-config :logger, level: :info
-
 config :tailwind,
-  version: "3.3.5",
+  version: "4.1.0",
   default: [
     args: ~w(
-    --config=assets/tailwind.config.js
-    --input=assets/css/app.css
+    --input=assets/css/site.css
     --output=_site/css/site.css
     )
   ]
+
+config :tableau, :config,
+  url: "http://localhost:4999",
+  base_path: "wom",
+  markdown: [
+    mdex: [
+      extension: [
+        table: true,
+        header_ids: "",
+        tasklist: true,
+        strikethrough: true,
+        autolink: true,
+        alerts: true,
+        footnotes: true
+      ],
+      render: [unsafe_: true],
+      features: [syntax_highlight_theme: "kanagawa"]
+    ]
+  ]
+
+config :logger, level: :info
 
 config :tableau, :assets, tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
 
